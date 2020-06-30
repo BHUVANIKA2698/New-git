@@ -8,14 +8,17 @@ public class Mainproject {
 		{
 			Projectbo projbo=new Projectboimplements();
 			try (Scanner scanner = new Scanner(System.in)) {
-				System.out.println("Welcome to Project");
+				System.out.println("Welcome to Lockedme.com");
 				int input = 0;
 				do {
+					System.out.println(" Menu");
+					System.out.println(" ------------");
 					System.out.println("Press 1 to add file to the existing folder");
 					System.out.println("Press 2 to delete file to the existing folder");
 					System.out.println("Press 3 to return the files in ascending order");
 					System.out.println("Press 4 to search the file from existing folder");
-					
+					System.out.println("Press 5 to EXIT");
+				
 					input =scanner.nextInt();
 					
 					switch (input) 
@@ -40,6 +43,10 @@ public class Mainproject {
 						projbo.search(nametosearch);
 						break;
 					case 5:
+					       System.out.println("Thanks for using our app");
+						break;
+						default:
+							System.out.println("Invalid option try again");
 						break;
 					}
 				}
