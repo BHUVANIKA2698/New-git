@@ -17,8 +17,8 @@ public class Mainproject {
 					System.out.println("Press 2 to delete file to the existing folder");
 					System.out.println("Press 3 to return the files in ascending order");
 					System.out.println("Press 4 to search the file from existing folder");
-					System.out.println("Press 5 to EXIT");
-				
+					System.out.println("Press 5 to Exit");
+					
 					input =scanner.nextInt();
 					
 					switch (input) 
@@ -43,11 +43,10 @@ public class Mainproject {
 						projbo.search(nametosearch);
 						break;
 					case 5:
-					       System.out.println("Thanks for using our app");
+						System.out.println("Thanks for using our app");
 						break;
 						default:
 							System.out.println("Invalid option try again");
-						break;
 					}
 				}
 				while(input!=3);
