@@ -1,0 +1,36 @@
+mat-card-header {
+    display: inline-block;
+}
+/* mat-card-header .header-image {
+    margin-left: 15px;
+/* } */
+/* mat-card-header .mat-card-container {
+    float: right;
+    margin-top: -85px;
+    margin-right: 40px;
+} */ */
+/* mat-card-header .mat-card-container .subtitle2 {
+    display: block;
+} */
+/* mat-card-header .quiz-topic-img {
+    display: flex;
+    justify-content: center;
+    /* background: url('../../../assets/images/DIDiagram.png') no-repeat center center; */
+    /* background-size: 100% !important;
+    margin: 90px -10px 0 5px;
+    height: 300px !important;
+    width: 100% !important;
+} */ 
+mat-card-content p {
+    text-align: justify;
+    margin-top: -25px;
+}
+mat-card-actions {
+    text-align: center;
+}
+mat-card-actions button {
+    margin-bottom: 10px !important;
+}
+mat-card-actions button:hover {
+    border: 1px solid #007aff;
+}
